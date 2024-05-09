@@ -22,7 +22,7 @@ $conn = connectDB();
 
 
 
-$sql2 = "select * from sanpham where malsp=00001 order by rand()";
+$sql2 = "select * from sanpham where trangthai = 1 and malsp=00001 order by rand()";
 
 $result = $conn->query($sql2);
 
@@ -314,7 +314,7 @@ $result = $conn->query($sql2);
   <br>
 
   <?php
-  $sql2 = "select * from sanpham where malsp=00002 order by rand()";
+  $sql2 = "select * from sanpham where trangthai = 1 and malsp=00002 order by rand()";
 
   $result = $conn->query($sql2);
 
@@ -391,7 +391,7 @@ $result = $conn->query($sql2);
     <br>
     <h2>Watch</h2>
     <?php
-    $sql2 = "select * from sanpham where malsp=00003 order by rand()";
+    $sql2 = "select * from sanpham where trangthai = 1 and malsp=00003 order by rand()";
 
     $result = $conn->query($sql2);
 
@@ -465,7 +465,7 @@ $result = $conn->query($sql2);
       </div>
       <br>
       <?php
-      $sql2 = "select * from sanpham where malsp=00004 order by rand()";
+      $sql2 = "select * from sanpham where trangthai = 1 and malsp=00004 order by rand()";
 
       $result = $conn->query($sql2);
 
