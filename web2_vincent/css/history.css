@@ -1,0 +1,116 @@
+/* Main cho body section */
+.main-content {
+    position: relative;
+    background: #ebe9e9;
+    width: 100%;
+    padding: 1rem;
+}
+
+.table--wrapper {
+    background: #fff;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.main-title {
+    font-size: 24px;
+}
+
+.table-container {
+    width: 100%;
+}
+
+.table-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.table-action {
+    display: flex;
+    align-items: center;
+}
+
+.gr-btn2 {
+    background: blue;
+    border-radius: 5px;
+    color: rgba(113, 99, 86, 255);
+    padding: 12px 22px;
+    cursor: pointer;
+}
+
+.gr-btn1 {
+    background: blue;
+    border-radius: 5px;
+    color: rgba(113, 99, 86, 255);
+    padding: 12px 22px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+.btn-title {
+    background: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: rgba(17, 49, 85, 0.486);
+    color: #fff;
+}
+
+th {
+    padding: 5px;
+    text-align: left;
+    border: 0.5px solid rgba(17, 49, 85, 0.486);
+}
+
+.bill-table tbody {
+    background: #f2f2f2;
+}
+
+.bill-table td {
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+    border: 0.5px solid rgba(17, 49, 85, 0.486);
+}
+
+.bill-table tr:nth-child(even) {
+    background: #fff;
+}
+
+ tfoot {
+    background: rgba(17, 49, 85, 0.486);
+    font-weight: bold;
+    color: #fff;
+}
+
+.bill-table tfoot td {
+    padding: 15px;
+    color: #fff;
+}
+
+.table-container button {
+    color: green;
+    background: none;
+    cursor: pointer;
+}
+
+.table-container button i {
+    width: 50px;
+    height: 20px;
+}
+
+.table-container button i:hover {
+    transform: scale(1.5);
+}
